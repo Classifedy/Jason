@@ -1,0 +1,50 @@
+if game.PlaceId == 5100950559 then
+    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    local Window = OrionLib:MakeWindow({Name = "ClassifiedxJason Is L HUB", HidePremium = false, IntroText = "Classified Is Your daddy ;)", SaveConfig = true, ConfigFolder = "Classified"})
+    
+    local RinTab = Window:MakeTab({ 
+        Name = "Rinnsy",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+    RinTab:AddToggle({
+        Name = "Rinnsy Aimbot ;)",
+        Default = false,
+        Callback = function(Value)
+            print(Value)
+        end    
+    })
+    
+    local JasTab = Window:MakeTab({
+        Name = "Jason",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+    JasTab:AddToggle({
+        Name = "Jason Is not hot dawg",
+        Default = false,
+        Callback = function(Value)
+            print(Value)
+        end    
+    })
+    
+    local IceTab = Window:MakeTab({
+        Name = "Iceify",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+    })
+    
+    IceTab:AddToggle({
+        Name = "Dawg is Dawg",
+        Default = false,
+        Callback = function(Value)
+            print(Value)
+        end    
+    })
+    
+    
+    
+    end
+    OrionLib:Init()
